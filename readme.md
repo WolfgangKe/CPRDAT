@@ -34,8 +34,9 @@ W. J. Kern and M. Holler are affiliated with the [Institute of Mathematics and S
 
 If you find this tool useful, please cite the following associated publication.
 
-* S. Orlob, W.J. Kern, B.Alpers, M. Schörghuber, A. Bohn, M. Holler, J.-T. Gräsner, J. Wnent, Chest compression fraction calculation: A new, automated method to precisely identify periods of chest compressions from defibrillator data., Resuscitation (In Press).
-* S. Orlob, W.J. Kern, B.Alpers, M. Schörghuber, A. Bohn, M. Holler, J.-T. Gräsner, J. Wnent, A sliding-window based algorithm to determine the presence of chest compressions from acceleration data
+* Simon Orlob, Wolfgang J. Kern, Birgitt Alpers, Michael Schörghuber, Andreas Bohn, Martin Holler, Jan-Thorsten Gräsner, Jan Wnent,
+Chest compression fraction calculation: A new, automated, robust method to identify periods of chest compressions from defibrillator data – Tested in Zoll X Series, Resuscitation, Volume 172, 2022, Pages 162-169, ISSN 0300-9572, https://doi.org/10.1016/j.resuscitation.2021.12.028. (https://www.sciencedirect.com/science/article/pii/S0300957221005360)
+* Wolfgang J. Kern, Simon Orlob, Birgitt Alpers, Michael Schörghuber, Andreas Bohn, Martin Holler, Jan-Thorsten Gräsner, Jan Wnent, A sliding-window based algorithm to determine the presence of chest compressions from acceleration data, Data in Brief, Volume 41, 2022, 107973, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2022.107973. (https://www.sciencedirect.com/science/article/pii/S2352340922001846)
 
 ## Acknowledgements
 
