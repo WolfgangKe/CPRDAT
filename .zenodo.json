@@ -1,79 +1,4 @@
 {
-  "files": [
-    {
-      "links": {
-        "self": "https://zenodo.org/api/files/d528ba49-e76e-472e-b12e-0bd899403d34/AccPause.py"
-      }, 
-      "checksum": "md5:ece5f4ebc816d1bfd95919f2f515dee1", 
-      "bucket": "d528ba49-e76e-472e-b12e-0bd899403d34", 
-      "key": "AccPause.py", 
-      "type": "py", 
-      "size": 8321
-    }, 
-    {
-      "links": {
-        "self": "https://zenodo.org/api/files/d528ba49-e76e-472e-b12e-0bd899403d34/CC-periods.ipynb"
-      }, 
-      "checksum": "md5:856f1d441002141c4f82d6b974f2ac2a", 
-      "bucket": "d528ba49-e76e-472e-b12e-0bd899403d34", 
-      "key": "CC-periods.ipynb", 
-      "type": "ipynb", 
-      "size": 150193
-    }, 
-    {
-      "links": {
-        "self": "https://zenodo.org/api/files/d528ba49-e76e-472e-b12e-0bd899403d34/Exemplary_Cases.zip"
-      }, 
-      "checksum": "md5:0cb87c099026c69a15ae32308b1e6468", 
-      "bucket": "d528ba49-e76e-472e-b12e-0bd899403d34", 
-      "key": "Exemplary_Cases.zip", 
-      "type": "zip", 
-      "size": 34370210
-    }, 
-    {
-      "links": {
-        "self": "https://zenodo.org/api/files/d528ba49-e76e-472e-b12e-0bd899403d34/readme.md"
-      }, 
-      "checksum": "md5:ad820b396ea46ea344771fafe6a27692", 
-      "bucket": "d528ba49-e76e-472e-b12e-0bd899403d34", 
-      "key": "readme.md", 
-      "type": "md", 
-      "size": 2186
-    }
-  ], 
-  "owners": [
-    252899
-  ], 
-  "doi": "10.5281/zenodo.5497700", 
-  "stats": {
-    "version_unique_downloads": 13.0, 
-    "unique_views": 62.0, 
-    "views": 101.0, 
-    "version_views": 101.0, 
-    "unique_downloads": 13.0, 
-    "version_unique_views": 62.0, 
-    "volume": 172370806.0, 
-    "version_downloads": 20.0, 
-    "downloads": 20.0, 
-    "version_volume": 172370806.0
-  }, 
-  "links": {
-    "doi": "https://doi.org/10.5281/zenodo.5497700", 
-    "conceptdoi": "https://doi.org/10.5281/zenodo.5497699", 
-    "bucket": "https://zenodo.org/api/files/d528ba49-e76e-472e-b12e-0bd899403d34", 
-    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.5497699.svg", 
-    "html": "https://zenodo.org/record/5497700", 
-    "latest_html": "https://zenodo.org/record/5497700", 
-    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.5497700.svg", 
-    "latest": "https://zenodo.org/api/records/5497700"
-  }, 
-  "conceptdoi": "10.5281/zenodo.5497699", 
-  "created": "2021-09-09T12:06:52.794338+00:00", 
-  "updated": "2022-01-11T16:51:25.120530+00:00", 
-  "conceptrecid": "5497699", 
-  "revision": 4, 
-  "id": 5497700, 
-  "metadata": {
     "access_right_category": "success", 
     "doi": "10.5281/zenodo.5497700", 
     "description": "<p>The <strong>C</strong>ardio<strong>P</strong>ulmonary <strong>R</strong>esuscitation <strong>D</strong>ata <strong>A</strong>nalysis <strong>T</strong>oolbox is a software tool box developed to allow data analysis of defibrillator records of cardiopulmonary resuscitation attempts. The code originates from the project &quot;A machine learning approach towards data-driven cardiopulmonary resuscitation&rdquo; at the University of Graz.</p>\n\n<p>So far this toolbox contains only one algorithm which automatically detects chest compression episodes in accelerometer signals from cardiopulmonary resuscitation (CPR) attempts. Further tools will be added later. Exemplary data to illustrate the functionalities of the toolbox is also provided in this repository.</p>", 
@@ -135,4 +60,3 @@
       }
     ]
   }
-}
