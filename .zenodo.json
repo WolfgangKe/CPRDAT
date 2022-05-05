@@ -1,12 +1,13 @@
 {
     "access_right_category": "success", 
-    "doi": "10.5281/zenodo.5497700", 
-    "description": "<p>The <strong>C</strong>ardio<strong>P</strong>ulmonary <strong>R</strong>esuscitation <strong>D</strong>ata <strong>A</strong>nalysis <strong>T</strong>oolbox is a software tool box developed to allow data analysis of defibrillator records of cardiopulmonary resuscitation attempts. The code originates from the project &quot;A machine learning approach towards data-driven cardiopulmonary resuscitation&rdquo; at the University of Graz.</p>\n\n<p>So far this toolbox contains only one algorithm which automatically detects chest compression episodes in accelerometer signals from cardiopulmonary resuscitation (CPR) attempts. Further tools will be added later. Exemplary data to illustrate the functionalities of the toolbox is also provided in this repository.</p>", 
+    "doi": "10.5072/zenodo.913971", 
+    "description": "<p>Test Repo for restricted access trial</p>", 
     "language": "eng", 
-    "title": "CPRDAT 0.1", 
+    "title": "test_repo_for_restricted", 
     "license": {
       "id": "CC-BY-4.0"
     }, 
+    "notes": "none", 
     "relations": {
       "version": [
         {
@@ -14,48 +15,32 @@
           "index": 0, 
           "parent": {
             "pid_type": "recid", 
-            "pid_value": "5497699"
+            "pid_value": "913970"
           }, 
           "is_last": true, 
           "last_child": {
             "pid_type": "recid", 
-            "pid_value": "5497700"
+            "pid_value": "913971"
           }
         }
       ]
     }, 
-    "version": "0.1", 
-    "keywords": [
-      "Cardiopulmonary resuscitation", 
-      "Emergency medicine"
-    ], 
-    "publication_date": "2021-09-09", 
+    "publication_date": "2021-09-05", 
     "creators": [
       {
-        "orcid": "0000-0001-5080-382X", 
-        "affiliation": "University of Graz", 
-        "name": "Wolfgang J. Kern"
-      }, 
-      {
-        "orcid": "0000-0001-7799-4822", 
-        "affiliation": "Medical University of Graz", 
-        "name": "Simon Orlob"
-      }, 
-      {
-        "orcid": "0000-0002-2895-2375", 
-        "affiliation": "University of Graz", 
-        "name": "Martin Holler"
+        "affiliation": "University in Graz", 
+        "name": "Wolfgang Kern"
       }
     ], 
     "access_right": "open", 
     "resource_type": {
-      "type": "dataset", 
-      "title": "Dataset"
+      "type": "other", 
+      "title": "Other"
     }, 
     "related_identifiers": [
       {
         "scheme": "doi", 
-        "identifier": "10.5281/zenodo.5497699", 
+        "identifier": "10.5072/zenodo.913970", 
         "relation": "isVersionOf"
       }
     ]
