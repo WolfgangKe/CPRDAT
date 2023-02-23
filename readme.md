@@ -2,7 +2,10 @@
 
 The **C**ardio**P**ulmonary **R**esuscitation **D**ata **A**nalysis **T**oolbox is a software tool box developed to allow data analysis of defibrillator records of cardiopulmonary resuscitation attempts. The code originates from the project "A machine learning approach towards data-driven cardiopulmonary resuscitation” at the University of Graz.
 
-So far this toolbox contains only one algorithm which automatically detects chest compression episodes in accelerometer signals from cardiopulmonary resuscitation (CPR) attempts. Further tools will be added later.  Exemplary data to illustrate the functionalities of the toolbox is also provided in this repository. 
+So far this toolbox contains two algorithms.
+Algorithm 1 automatically detects chest compression episodes in accelerometer signals from cardiopulmonary resuscitation (CPR) attempts. 
+Algorithm 2 is a Machine-Learning classifier to detect the circulation state of a patient based on Accelerometry and ECG data.
+Further tools will be added later.  Exemplary data to illustrate the functionalities of the toolbox is also provided in this repository. 
 
 ## Requirements
 
@@ -12,11 +15,18 @@ The code is written for Python 3. No dedicated installation is needed for the pr
 * [scipy](https://pypi.org/project/scipy/)
 * [matplotlib](https://pypi.org/project/matplotlib/) 
 * [pandas](https://pypi.org/project/pandas/)
+* [joblib](https://joblib.readthedocs.io/en/latest/)
+* [antropy](https://github.com/raphaelvallat/antropy)
 
 ## Getting started
 
+### Chest compression detection
 Five exemplary resuscitation cases with manual annotations of experienced physicians are provided in the subfolder `cc-periods_cases`. 
 Just run the Jupyter-Notebook `CC-periods.ipynb` and choose a case.
+
+### Circulation state detection
+Five exemplary resuscitation cases with manual annotations of experienced physicians are provided in the subfolder `cc-periods_cases`. 
+Just run the Jupyter-Notebook `AccCircClassification.ipynb` and choose a case.
 
 ## Known issues
 
@@ -34,9 +44,9 @@ W. J. Kern and M. Holler are affiliated with the [Institute of Mathematics and S
 
 If you find this tool useful, please cite the following associated publication.
 
-* Simon Orlob, Wolfgang J. Kern, Birgitt Alpers, Michael Schörghuber, Andreas Bohn, Martin Holler, Jan-Thorsten Gräsner, Jan Wnent,
-Chest compression fraction calculation: A new, automated, robust method to identify periods of chest compressions from defibrillator data – Tested in Zoll X Series, Resuscitation, Volume 172, 2022, Pages 162-169, ISSN 0300-9572, https://doi.org/10.1016/j.resuscitation.2021.12.028. (https://www.sciencedirect.com/science/article/pii/S0300957221005360)
-* Wolfgang J. Kern, Simon Orlob, Birgitt Alpers, Michael Schörghuber, Andreas Bohn, Martin Holler, Jan-Thorsten Gräsner, Jan Wnent, A sliding-window based algorithm to determine the presence of chest compressions from acceleration data, Data in Brief, Volume 41, 2022, 107973, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2022.107973. (https://www.sciencedirect.com/science/article/pii/S2352340922001846)
+* S. Orlob, W.J. Kern, B.Alpers, M. Schörghuber, A. Bohn, M. Holler, J.-T. Gräsner, J. Wnent, Chest compression fraction calculation: A new, automated method to precisely identify periods of chest compressions from defibrillator data., Resuscitation, vol. 172, pp. 162–169, (2022). https://doi.org/10.1016/j.resuscitation.2021.12.028
+* W.J. Kern, S. Orlob, B.Alpers, M. Schörghuber, A. Bohn, M. Holler, J.-T. Gräsner, J. Wnent, A sliding-window based algorithm to determine the presence of chest compressions from acceleration data.  Data Brief, vol. 41, Art. no. 107973, (2022). https://doi.org/10.1016/j.dib.2022.107973
+* W.J. Kern, S. Orlob, A. Bohn, W. Toller, J.-T. Gräsner, J. Wnent, M. Holler, Accelerometry-based classification of circulatory states during out-of-hospital cardiac arrest. IEEE-Transactions on Biomedical Engineering (In Press) https://doi.org/10.1109/TBME.2023.3242717
 
 ## Acknowledgements
 
