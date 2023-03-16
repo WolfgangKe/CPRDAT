@@ -61,5 +61,7 @@ project "A machine learning approach towards data-driven cardiopulmonary
 
 ## License
 
+This project is licensed under the GPLv3 license - see the [LICENSE](LICENSE) file for details.
+
 
 
