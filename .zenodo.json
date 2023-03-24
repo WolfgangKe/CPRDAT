@@ -30,7 +30,15 @@
       {
         "affiliation": "University of Graz", 
         "name": "Wolfgang Kern"
-      }
+      },
+      {
+        "affiliation": "University of Graz", 
+        "name": "Martin Holler"
+      },
+              {
+        "affiliation": "Medical University of Graz", 
+        "name": "Simon Orlob"
+      },
     ], 
     "access_right": "open", 
     "resource_type": {
@@ -41,7 +49,7 @@
       {
         "scheme": "doi", 
         "identifier": "10.5072/zenodo.913970", 
-        "relation": "isVersionOf"
+        "relation": "isNewVersionOf"
       }
     ]
   }
