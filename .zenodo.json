@@ -1,9 +1,9 @@
 {
     "access_right_category": "success", 
-    "doi": "10.5281/zenodo.5497700", 
-    "description": "<p>CPRDAT-Repository for processing defibrillator files.</p>", 
+    "doi": "10.5072/zenodo.913971", 
+    "description": "<p>Test Repo for restricted access trial</p>", 
     "language": "eng", 
-    "title": "CPRDAT", 
+    "title": "test_repo_for_restricted", 
     "license": {
       "id": "CC-BY-4.0"
     }, 
@@ -11,7 +11,7 @@
     "relations": {
       "version": [
         {
-          "count": 2, 
+          "count": 1, 
           "index": 0, 
           "parent": {
             "pid_type": "recid", 
@@ -25,20 +25,12 @@
         }
       ]
     }, 
-    "publication_date": "2023-03-08", 
+    "publication_date": "2021-09-05", 
     "creators": [
       {
         "affiliation": "University of Graz", 
         "name": "Wolfgang Kern"
-      },
-      {
-        "affiliation": "University of Graz", 
-        "name": "Martin Holler"
-      },
-              {
-        "affiliation": "Medical University of Graz", 
-        "name": "Simon Orlob"
-      },
+      }
     ], 
     "access_right": "open", 
     "resource_type": {
