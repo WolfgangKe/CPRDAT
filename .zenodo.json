@@ -16,10 +16,6 @@
       }
     ], 
     "access_right": "open", 
-    "resource_type": {
-      "type": "other", 
-      "title": "Other"
-    }, 
     "related_identifiers": [
       {
         "scheme": "doi", 
