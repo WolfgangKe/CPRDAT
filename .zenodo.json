@@ -1,5 +1,5 @@
 {
-    "access_right_category": "success", 
+    "access_right": "open", 
     "doi": "10.5072/zenodo.913971", 
     "description": "<p>Test Repo for restricted access trial</p>", 
     "language": "eng", 
@@ -41,7 +41,7 @@
       {
         "scheme": "doi", 
         "identifier": "10.5072/zenodo.913970", 
-        "relation": "isNewVersionOf"
+        "relation": "10"
       }
     ]
   }
