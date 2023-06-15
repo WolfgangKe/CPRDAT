@@ -1,6 +1,6 @@
 {
     "access_right": "open", 
-    "doi": "10.5072/zenodo.913971", 
+    "doi": "10.5281/zenodo.5497701", 
     "description": "<p>Test Repo for restricted access trial</p>", 
     "language": "eng", 
     "title": "test_repo_for_restricted", 
@@ -8,23 +8,6 @@
       "id": "CC-BY-4.0"
     }, 
     "notes": "none", 
-    "relations": {
-      "version": [
-        {
-          "count": 1, 
-          "index": 0, 
-          "parent": {
-            "pid_type": "recid", 
-            "pid_value": "913970"
-          }, 
-          "is_last": true, 
-          "last_child": {
-            "pid_type": "recid", 
-            "pid_value": "913971"
-          }
-        }
-      ]
-    }, 
     "publication_date": "2021-09-05", 
     "creators": [
       {
@@ -40,8 +23,8 @@
     "related_identifiers": [
       {
         "scheme": "doi", 
-        "identifier": "10.5072/zenodo.913970", 
-        "relation": "10"
+        "identifier": "10.5281/zenodo.5497700", 
+        "relation": "isNewVersionOf"
       }
     ]
   }
