@@ -1,14 +1,31 @@
 {
-    "access_right": "open", 
-    "doi": "10.5281/zenodo.5497701", 
-    "description": "<p>Test Repo for restricted access trial</p>", 
+    "access_right_category": "success", 
+    "doi": "10.5281/zenodo.5497700", 
+    "description": "<p>CPRDAT-Repository for processing defibrillator files.</p>", 
     "language": "eng", 
-    "title": "test_repo_for_restricted", 
+    "title": "CPRDAT", 
     "license": {
       "id": "CC-BY-4.0"
     }, 
     "notes": "none", 
-    "publication_date": "2021-09-05", 
+    "relations": {
+      "version": [
+        {
+          "count": 2, 
+          "index": 0, 
+          "parent": {
+            "pid_type": "recid", 
+            "pid_value": "913970"
+          }, 
+          "is_last": true, 
+          "last_child": {
+            "pid_type": "recid", 
+            "pid_value": "913971"
+          }
+        }
+      ]
+    }, 
+    "publication_date": "2023-03-08", 
     "creators": [
       {
         "affiliation": "University of Graz", 
@@ -16,11 +33,15 @@
       }
     ], 
     "access_right": "open", 
+    "resource_type": {
+      "type": "other", 
+      "title": "Other"
+    }, 
     "related_identifiers": [
       {
         "scheme": "doi", 
         "identifier": "10.5281/zenodo.5497700", 
-        "relation": "isNewVersionOf"
+        "relation": "isVersionOf"
       }
     ]
-  }
+}
